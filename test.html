@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Galvanize Delivers - Order Now</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- JS -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src='../script.js'></script>
+</head>
+<body>
+  <nav class="blue-grey" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Galvanize Delivers</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Home</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<!-- The big container -->
+  <div class="container">
+    <div class="row">
+
+      <!-- The left column -->
+      <div class="col s12 m7 l7">
+        <h5>Menu</h5>
+
+        <!-- First card -->
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="ribeye copy.jpg">
+            </div>
+            <div class="card-content">
+              <p>Ribeye - $22.99</p>
+            </div>
+            <div class="card-action">
+              <a class="ribeye red-text text-lighten-1" href="#" data-value="22.99">ADD TO ORDER</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second card-->
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="strip.jpg">
+              <!-- <span class="card-title">Card Title</span> -->
+            </div>
+            <div class="card-content">
+              <p>New York Strip - $18.99</p>
+            </div>
+            <div class="card-action">
+              <a class="strip red-text text-lighten-1" href="#" data-value="18.99">ADD TO ORDER</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third card -->
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="tenderloin.jpg">
+              <!-- <span class="card-title">Card Title</span> -->
+            </div>
+            <div class="card-content">
+              <p>Tenderloin - $29.99</p>
+            </div>
+            <div class="card-action">
+              <a class="tenderloin red-text text-lighten-1" href="#" data-value="29.99">ADD TO ORDER</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fourth card -->
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="porterhouse.jpg">
+              <!-- <span class="black-text left-align card-title">Menu</span> -->
+            </div>
+            <div id="Porterhouse" class="card-content">
+              <p>Porterhouse - $24.99</p>
+            </div>
+            <div class="card-action">
+              <a class="porterhouse red-text text-lighten-1" href="#" data-value="24.99">ADD TO ORDER</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Order table -->
+      <div class="col s12 m12 l5">
+        <h5>Order</h5>
+        <table class="striped">
+          <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+          </thead>
+          <tbody class="myTable">
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Totals table -->
+      <div class="col s12 m12 l5">
+        <table>
+          <thead>
+            <tr>
+
+            </tr>
+          </thead>
+
+          <tbody class="receipt">
+            <tr>
+              <td>Subtotal</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Customer info -->
+      <div class="col s12 m12 l5">
+
+        <!-- Name -->
+        <div class="icon s4 m4 l1 left">
+          <i class="material-icons">person</i>
+        </div>
+        <div class="col s12 m12 l11 section right">
+          <h6 >Name</h6>
+          <p>firstname lastname</p>
+        </div>
+        <div class="col s12 m12 l12 divider"></div>
+
+        <!-- Phone -->
+        <div class="icon s4 m4 l1 left">
+          <i class="material-icons">phone</i>
+        </div>
+        <div class="col s12 m12 l11 section right">
+          <h6>Phone Number</h6>
+          <p>Example</p>
+        </div>
+        <div class="col s12 m12 l12 divider"></div>
+
+        <!-- Address -->
+        <div class="icon s4 m4 l1 left">
+          <i class="material-icons">add_location</i>
+        </div>
+        <div class="col s12 m12 l11 section right">
+          <h6>Address</h6>
+          <p>Example</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+  <footer class="page-footer blue-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Galvanize Delivers</h5>
+          <p class="grey-text text-lighten-4">Just Steaks, Delivered.</p>
+        </div>
+        <div class="col l3 s12">
+        </div>
+        <div class="col l3 s12">
+          <ul>
+            <li><a class="white-text" href="#!">Home</a></li>
+            <li><a class="white-text" href="#!">Order Delivery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <p>©2016 Galvanize</p>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

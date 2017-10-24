@@ -1,0 +1,20 @@
+html, body {
+
+}
+
+#logo-container {
+  color: white;
+}
+
+#nav-home {
+  color: white;
+}
+
+.left col s4 {
+  align-items: center;
+}
+
+.rightside {
+  width: 50%;
+  float: right;
+}
